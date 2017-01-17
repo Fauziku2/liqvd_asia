@@ -1,0 +1,51 @@
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: transparent}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #}
+/*.dropdown-menu { background-color: #FFFFFF}*/
+/*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428BCA}*/
+/*.navbar-inverse { background-image: none; }*/
+/*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }*/
+/*.navbar-inverse { border-color: #080808}*/
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.navbar-inverse .navbar-brand:hover {
+  color: #10CA7E;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+  color: #10CA74;
+}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+/*.dropdown-menu>li>a { color: #333333}*/
+/*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}*/
+/*.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}*/
+/*.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}*/
+/*.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}*/
+/*.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}*/
+
+.navbar-btn {
+  background-color: #10CA7E;
+  border-color: #10CA7E;
+  color: white;
+}
+#section1{
+  height: 750px;
+  background-color: #222222;
+}
+.section1-row {
+  padding-top: 200px;
+}
+.section1-text {
+  color: #10CA7E;
+}
+
+#section2 {
+  height: 750px;
+}
