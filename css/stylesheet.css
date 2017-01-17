@@ -45,6 +45,19 @@
 .section1-text {
   color: #10CA7E;
 }
+.arrow-down {
+  padding-top: 250px;
+  padding-left: 50%;
+}
+.fa-angle-double-down {
+  color: white;
+}
+.arrow-down-link {
+  left: 300px;
+}
+.arrow-dowm {
+  padding-top: 700px;
+}
 
 #section2 {
   height: 750px;
