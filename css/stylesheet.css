@@ -60,5 +60,17 @@
 }
 
 #section2 {
-  height: 750px;
+  height: 730px;
+  /*background-color: blue;*/
+}
+.section2-text {
+  margin-top: 200px;
+}
+.section2-btn-div {
+  margin-top: 90px;
+}
+.section2-btn {
+  background-color: #222222;
+  border-color: #222222;
+  color: white;
 }
