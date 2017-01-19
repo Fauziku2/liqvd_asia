@@ -35,13 +35,15 @@ body { font-family: 'Lato', sans-serif }
   background-color: #222222;
 }
 .section1-row {
-  padding-top: 200px;
+  padding-top: 190px;
 }
 .section1-text {
+  font-size: 50px;
+  margin-bottom: 0;
   color: #10CA7E;
 }
 .arrow-down {
-  padding-top: 250px;
+  padding-top: 70px;
   padding-left: 50%;
 }
 .fa-angle-double-down {
@@ -50,9 +52,7 @@ body { font-family: 'Lato', sans-serif }
 .arrow-down-link {
   left: 300px;
 }
-.arrow-dowm {
-  padding-top: 700px;
-}
+
 #signInButton, #signUpButton {
   width: 150px;
   height: 40px;
@@ -110,9 +110,10 @@ body { font-family: 'Lato', sans-serif }
 }
 .login-btn {
   margin-top: 15px;
+  margin-bottom: 100px;
 }
 
-#section2 { height: 700px }
+#section2 { height: 725px }
 .section2-text { padding-top: 150px }
 .section2-btn-div { padding-top: 90px }
 .section2-btn {
@@ -122,8 +123,12 @@ body { font-family: 'Lato', sans-serif }
   width: 170px;
   height: 45px;
 }
-.section2-header { color: #10CA7E }
+.section2-header {
+  font-size: 40px;
+  color: #10CA7E;
+ }
 .section2-paragraph {
+  font-size: 18px;
   margin-bottom: 0;
 }
 .section2-image {

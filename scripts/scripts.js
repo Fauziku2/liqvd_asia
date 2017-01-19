@@ -34,6 +34,7 @@
   $('#signInButton').click(function () {
     $(this).css('background-color', '#10CA7E').css('color', '#222222')
     $('#signUpButton').css('background-color', '#696969').css('color', '#222222').css('border-color', '#696969')
+    // $('.login-btn').css('margin-bottom', '100px')
 
     $('#signInForm').show('fast')
     $('#signUpForm').css('display', 'none')
