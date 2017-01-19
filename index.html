@@ -62,38 +62,39 @@
           <h1 class="section1-text">information.</h1>
         </div>
         <div class="col-md-4 col-md-offset-1">
-          <button id="signInButton" type="button" class="btn btn-default">Sign In</button><button id="signUpButton" type="button" class="btn btn-default">Sign Up</button>
+          <button id="signInButton" type="button" class="btn btn-default toggle-btn">Sign Up for Trial</button><button id="signUpButton" type="button" class="btn btn-default toggle-btn">User Log In</button>
 
           <form id="signInForm">
-            <div class="form-group">
-              <label for="fullname1">Full name*</label>
+            <div class="form-group form-input">
+              <label for="fullname1" class="form-text">Full name*</label>
               <input type="email" id="fullname" class="form-control full-name">
             </div>
             <div class="form-group">
-              <label for="email1">Email address*</label>
+              <label for="email1" class="form-text">Email address*</label>
               <input type="email" id="email1" class="form-control pass">
             </div>
             <div class="form-label">
-              <label for="company1">Company*</label>
-              <label for="number1">Contact Number</label>
+              <label for="company1" class="form-text">Company*</label>
+              <label for="number1" class="contact-number form-text">Contact Number</label>
             </div>
             <div class="form-inline">
-              <input type="text" id="company1" class="form-control pass">
-              <input type="text" id="number1" class="form-control pass">
+              <input type="text" id="company1" class="form-control company">
+              <input type="text" id="number1" class="form-control number">
             </div>
-            <input class="btn btn-default" type="submit" value="Sign Up for Trial">
+            <p class="text-center required-field">*required field</p>
+            <input class="btn btn-default signup-btn" type="submit" value="Sign Up for Trial">
           </form>
 
           <form id="signUpForm">
-            <div class="form-group">
-              <label for="email2">Email address</label>
+            <div class="form-group form-input">
+              <label for="email2" class="form-text">Email address</label>
               <input type="email" id="email2" class="form-control pass">
             </div>
             <div class="form-group">
-              <label for="password">Email address*</label>
+              <label for="password" class="form-text">Email address*</label>
               <input type="password" id="password" class="form-control pass2">
             </div>
-            <input class="btn btn-default" type="submit" value="Log In">
+            <input class="btn btn-default login-btn" type="submit" value="Log In">
           </form>
 
         </div>

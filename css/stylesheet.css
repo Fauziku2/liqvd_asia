@@ -1,6 +1,4 @@
-body {
-  font-family: 'Lato', sans-serif;
-}
+body { font-family: 'Lato', sans-serif }
 .navbar-inverse {
   background-color: transparent;
   border-color: transparent;
@@ -12,15 +10,9 @@ body {
 /*.navbar-inverse { background-image: none; }*/
 /*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }*/
 /*.navbar-inverse { border-color: #080808}*/
-.navbar-inverse .navbar-brand {
-  color: white;
-}
-.navbar-inverse .navbar-brand:hover {
-  color: #10CA7E;
-}
-.navbar-inverse .navbar-nav>li>a {
-  color: white;
-}
+.navbar-inverse .navbar-brand { color: white }
+.navbar-inverse .navbar-brand:hover { color: #10CA7E }
+.navbar-inverse .navbar-nav>li>a { color: white }
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
   color: #10CA74;
 }
@@ -61,17 +53,68 @@ body {
 .arrow-dowm {
   padding-top: 700px;
 }
+#signInButton, #signUpButton {
+  width: 150px;
+  height: 40px;
+  transition: 0.1s ease-in-out;
+}
+#signUpButton{
+  border-radius: 0 5px 5px 0;
+  background-color: #696969;
+  border-color: #696969;
+}
+#signInButton {
+  border-radius: 5px 0 0 5px;
+  margin-left: 33px;
+  background-color: #10CA7E;
+  border-color: #10CA7E;
+  color: #222222;
+}
+.btn:focus {
+  outline-color: #10CA7E;
+}
+.form-input {
+  padding-top: 30px;
+}
+.form-control {
+  background-color: #696969;
+  border-color: #696969;
+  color: white;
+}
+.form-control:focus {
+  border-color: #10CA7E;
+}
+.pass{
+  color: #10CA7E;
+}
+.contact-number {
+  padding-left: 120px;
+}
+.number {
+  margin-left: 10px;
+}
+.form-text {
+  color: white;
+}
+.required-field {
+  color: white;
+  padding-top: 50px;
+}
+.signup-btn, .login-btn {
+  width: 170px;
+  height: 50px;
+  margin-left: 95px;
+  background-color: transparent;
+  border-color: #10CA7E;
+  color: #10CA7E;
+}
+.login-btn {
+  margin-top: 15px;
+}
 
-#section2 {
-  height: 700px;
-  /*background-color: blue;*/
-}
-.section2-text {
-  padding-top: 150px;
-}
-.section2-btn-div {
-  padding-top: 90px;
-}
+#section2 { height: 700px }
+.section2-text { padding-top: 150px }
+.section2-btn-div { padding-top: 90px }
 .section2-btn {
   background-color: #222222;
   border-color: #222222;
@@ -79,9 +122,7 @@ body {
   width: 170px;
   height: 45px;
 }
-.section2-header {
-  color: #10CA7E;
-}
+.section2-header { color: #10CA7E }
 .section2-paragraph {
   margin-bottom: 0;
 }
@@ -89,9 +130,7 @@ body {
   width: 520px;
  height: 350px;
 }
-.carousel-indicators {
-  top: 625px;
-}
+.carousel-indicators { top: 625px }
 .carousel-indicators li {
   background-color: #222222;
   width: 15px;
@@ -107,9 +146,7 @@ body {
   height: 490px;
   background-color: #10CA7E;
 }
-.section3-text {
-  color: white;
-}
+.section3-text { color: white }
 .section3-btn {
   width: 180px;
   height: 50px;
@@ -129,12 +166,6 @@ body {
   padding-left: 50px;
   padding-bottom: 20px;
 }
-.section3-container {
-  padding-top: 90px;
-}
-.section3-row2 {
-  padding-top: 50px;
-}
-.section3-row3 {
-  padding-top: 20px;
-}
+.section3-container { padding-top: 90px }
+.section3-row2 { padding-top: 50px }
+.section3-row3 { padding-top: 20px }

@@ -1,8 +1,9 @@
-(function($) {
+
+(function ($) {
   "use strict" // Start of use strict
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
-  $('a.page-scroll').bind('click', function(event) {
+  $('a.page-scroll').bind('click', function (event) {
     var $anchor = $(this)
     $('html, body').stop().animate({
       scrollTop: ($($anchor.attr('href')).offset().top)
@@ -10,15 +11,33 @@
     event.preventDefault()
   })
 
-  var scroll_pos = 0;
+  var scroll_pos = 0
   $(document).scroll(function () {
-    scroll_pos = $(this).scrollTop();
+    scroll_pos = $(this).scrollTop()
     if (scroll_pos > 210) {
-      $("nav a").css('color', 'black');
+      $('nav a').css('color', 'black')
     } else {
-      $("nav a").css('color', 'white');
+      $('nav a').css('color', 'white')
     }
-  });
+  })
+
+  $('#signUpForm').css('display', 'none')
+
+  $('#signUpButton').click(function () {
+    $(this).css('background-color', '#10CA7E').css('color', '#222222')
+    $('#signInButton').css('background-color', '#696969').css('color', '#222222').css('border-color', '#696969')
+
+    $('#signInForm').css('display', 'none')
+    $('#signUpForm').show('fast')
+  })
+
+  $('#signInButton').click(function () {
+    $(this).css('background-color', '#10CA7E').css('color', '#222222')
+    $('#signUpButton').css('background-color', '#696969').css('color', '#222222').css('border-color', '#696969')
+
+    $('#signInForm').show('fast')
+    $('#signUpForm').css('display', 'none')
+  })
 
   // Highlight the top nav as scrolling occurs
   // $('body').scrollspy({
@@ -36,4 +55,4 @@
   //     }
   // })
 
-})(jQuery); // End of use strict
+})(jQuery);// End of use strict
