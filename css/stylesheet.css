@@ -183,18 +183,41 @@ body { font-family: 'Lato', sans-serif }
   height: 300px;
   background-color: #222222;
 }
+.footer-header {
+  font-size: 18px;
+}
 .footer1 {
   padding-top: 50px;
 }
 .footer1 p {
   color: white;
 }
+.footer-link {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+.footer-link1 {
+  color: white;
+  text-decoration: underline;
+}
+.footer-link1:hover {
+  color: #10CA7E;
+}
 .footer2 p {
   color: white;
 }
-.footer1 a:link {
-  color: white;
+.footer-add {
+  margin-bottom: 0px;
+  font-size: 15px;
 }
-.footer a {
-  color: white;
+.footer-contact {
+  margin-top: 5px;
+  font-size: 15px;
+}
+.footer-trial {
+  padding-top: 30px;
+}
+.footer2 {
+  padding-top: 30px;
+  font-size: 12px;
 }
