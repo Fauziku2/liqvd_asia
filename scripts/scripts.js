@@ -1,6 +1,6 @@
 
 (function ($) {
-  "use strict" // Start of use strict
+  'use strict' // Start of use strict
 
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $('a.page-scroll').bind('click', function (event) {
@@ -14,10 +14,26 @@
   var scroll_pos = 0
   $(document).scroll(function () {
     scroll_pos = $(this).scrollTop()
-    if (scroll_pos > 210) {
+    if (scroll_pos > 680 && scroll_pos <= 1370) {
       $('nav a').css('color', 'black')
-    } else {
+      $('.navbar-logo').attr('src', '../image/navbar-section2-logo.png')
+      $('.navbar-logo').show()
+      $('nav a').show()
+      $('.navbar-btn').show()
+      // $('.navbar-logo').hide()
+    // } else if (scroll_pos > 300) {
+    //   $('.navbar-logo').attr('src', '../image/navbar-section2-logo.png')
+    //   $('.navbar-logo').show()
+    } else if (scroll_pos < 680 ){
       $('nav a').css('color', 'white')
+      $('.navbar-logo').attr('src', '../image/navbar-logo.png')
+      $('.navbar-logo').show()
+      $('nav a').show()
+      $('.navbar-btn').show()
+    } else if (scroll_pos > 1370) {
+      $('.navbar-logo').hide()
+      $('nav a').hide()
+      $('.navbar-btn').hide()
     }
   })
 
@@ -56,4 +72,4 @@
   //     }
   // })
 
-})(jQuery);// End of use strict
+})(jQuery)// End of use strict
