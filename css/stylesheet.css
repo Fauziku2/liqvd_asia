@@ -25,9 +25,7 @@ body { font-family: 'Lato', sans-serif }
   height: 730px;
   background-color: #222222;
 }
-.section1-row {
-  padding-top: 190px;
-}
+.section1-row { padding-top: 190px }
 .section1-text {
   font-size: 50px;
   margin-bottom: 0;
@@ -154,6 +152,7 @@ body { font-family: 'Lato', sans-serif }
   background-color: #222222;
 }
 .footer-logo{ height: 65px }
+.list-logo { list-style-type: none }
 .footer-header { font-size: 18px }
 .footer1 { padding-top: 50px }
 .footer1 p { color: white }
