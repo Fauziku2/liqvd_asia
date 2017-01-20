@@ -30,6 +30,10 @@ body { font-family: 'Lato', sans-serif }
   border-color: #10CA7E;
   color: white;
 }
+.navbar-nav > li > a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 #section1{
   height: 730px;
   background-color: #222222;
@@ -174,3 +178,23 @@ body { font-family: 'Lato', sans-serif }
 .section3-container { padding-top: 90px }
 .section3-row2 { padding-top: 50px }
 .section3-row3 { padding-top: 20px }
+
+#footer {
+  height: 300px;
+  background-color: #222222;
+}
+.footer1 {
+  padding-top: 50px;
+}
+.footer1 p {
+  color: white;
+}
+.footer2 p {
+  color: white;
+}
+.footer1 a:link {
+  color: white;
+}
+.footer a {
+  color: white;
+}
