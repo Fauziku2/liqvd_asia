@@ -5,26 +5,12 @@ body { font-family: 'Lato', sans-serif }
 }
 .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: transparent}
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #}
-/*.dropdown-menu { background-color: #FFFFFF}*/
-/*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428BCA}*/
-/*.navbar-inverse { background-image: none; }*/
-/*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }*/
-/*.navbar-inverse { border-color: #080808}*/
 .navbar-inverse .navbar-brand { color: white }
 .navbar-inverse .navbar-brand:hover { color: #10CA7E }
 .navbar-inverse .navbar-nav>li>a { color: white }
-.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
-  color: #10CA74;
-}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #10CA74 }
 .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
 .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
-/*.dropdown-menu>li>a { color: #333333}*/
-/*.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}*/
-/*.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}*/
-/*.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}*/
-/*.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}*/
-/*.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}*/
-
 .navbar-btn {
   background-color: #10CA7E;
   border-color: #10CA7E;
@@ -50,12 +36,8 @@ body { font-family: 'Lato', sans-serif }
   padding-top: 70px;
   padding-left: 50%;
 }
-.fa-angle-double-down {
-  color: white;
-}
-.arrow-down-link {
-  left: 300px;
-}
+.fa-angle-double-down { color: white }
+.arrow-down-link { left: 300px }
 
 #signInButton, #signUpButton {
   width: 150px;
@@ -74,32 +56,18 @@ body { font-family: 'Lato', sans-serif }
   border-color: #10CA7E;
   color: #222222;
 }
-.btn:focus {
-  outline-color: #10CA7E;
-}
-.form-input {
-  padding-top: 30px;
-}
+.btn:focus { outline-color: #10CA7E }
+.form-input { padding-top: 30px }
 .form-control {
   background-color: #696969;
   border-color: #696969;
   color: white;
 }
-.form-control:focus {
-  border-color: #10CA7E;
-}
-.pass{
-  color: #10CA7E;
-}
-.contact-number {
-  padding-left: 120px;
-}
-.number {
-  margin-left: 10px;
-}
-.form-text {
-  color: white;
-}
+.form-control:focus { border-color: #10CA7E }
+.pass{ color: #10CA7E }
+.contact-number { padding-left: 120px }
+.number { margin-left: 10px }
+.form-text { color: white }
 .required-field {
   color: white;
   padding-top: 50px;
@@ -137,7 +105,7 @@ body { font-family: 'Lato', sans-serif }
 }
 .section2-image {
   width: 520px;
- height: 350px;
+  height: 350px;
 }
 .carousel-indicators { top: 625px }
 .carousel-indicators li {
@@ -183,18 +151,10 @@ body { font-family: 'Lato', sans-serif }
   height: 300px;
   background-color: #222222;
 }
-.footer-logo{
-  height: 65px;
-}
-.footer-header {
-  font-size: 18px;
-}
-.footer1 {
-  padding-top: 50px;
-}
-.footer1 p {
-  color: white;
-}
+.footer-logo{ height: 65px }
+.footer-header { font-size: 18px }
+.footer1 { padding-top: 50px }
+.footer1 p { color: white }
 .footer-link {
   margin-bottom: 0px;
   font-size: 15px;
@@ -203,9 +163,7 @@ body { font-family: 'Lato', sans-serif }
   color: white;
   text-decoration: underline;
 }
-.footer-link1:hover {
-  color: #10CA7E;
-}
+.footer-link1:hover { color: #10CA7E }
 .footer2 p {
   color: white;
 }
@@ -217,14 +175,11 @@ body { font-family: 'Lato', sans-serif }
   margin-top: 5px;
   font-size: 15px;
 }
-.footer-trial {
-  padding-top: 30px;
-}
+.footer-trial { padding-top: 30px }
 .footer2 {
   padding-top: 30px;
   font-size: 12px;
 }
-
 ul.social-buttons {
   margin-bottom: 0;
   padding-top: 30px;
