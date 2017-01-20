@@ -234,7 +234,6 @@ ul.social-buttons li a {
   background-color: #222222;
   height: 40px;
   width: 40px;
-  border: 3px #10CA7E;
   border-radius: 100%;
   font-size: 20px;
   line-height: 40px;
@@ -249,6 +248,14 @@ ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: white;
 }
-/*.list-group {
-  float: left;
-}*/
+.list-inline > li {
+  padding-left: 0px;
+  padding-right: 0px;
+  list-style-type: none;
+}
+.list-group {
+  list-style-type: none;
+  border: 1px #10CA7E;
+  border-style: solid;
+  border-radius: 100%;
+}
