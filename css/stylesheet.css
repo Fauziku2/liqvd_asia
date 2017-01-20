@@ -84,6 +84,7 @@ body { font-family: 'Lato', sans-serif }
   margin-top: 15px;
   margin-bottom: 100px;
 }
+.fa-angle-double-down { color: #696969 }
 
 #section2 { height: 725px }
 .section2-text { padding-top: 150px }
