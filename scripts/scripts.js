@@ -16,7 +16,7 @@
     scroll_pos = $(this).scrollTop()
     if (scroll_pos > 680 && scroll_pos <= 1370) {
       $('nav a').css('color', 'black')
-      $('.navbar-logo').attr('src', '../image/navbar-section2-logo.png')
+      $('.navbar-logo').attr('src', './image/navbar-section2-logo.png')
       $('.navbar-logo').show()
       $('nav a').show()
       $('.navbar-btn').show()
@@ -26,7 +26,7 @@
     //   $('.navbar-logo').show()
     } else if (scroll_pos < 680 ){
       $('nav a').css('color', 'white')
-      $('.navbar-logo').attr('src', '../image/navbar-logo.png')
+      $('.navbar-logo').attr('src', './image/navbar-logo.png')
       $('.navbar-logo').show()
       $('nav a').show()
       $('.navbar-btn').show()
