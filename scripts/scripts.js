@@ -14,12 +14,12 @@
   var scroll_pos = 0
   $(document).scroll(function () {
     scroll_pos = $(this).scrollTop()
-    if (scroll_pos > 680 && scroll_pos <= 1370) {
+    if (scroll_pos > 680 && scroll_pos <= 1200) {
       $('nav a').css('color', 'black')
       $('.navbar-logo').attr('src', './image/navbar-section2-logo.png')
-      $('.navbar-logo').show()
-      $('nav a').show()
-      $('.navbar-btn').show()
+      $('.navbar-logo').fadeIn(1000)
+      $('nav a').fadeIn(1000)
+      $('.navbar-btn').fadeIn(1000)
       // $('.navbar-logo').hide()
     // } else if (scroll_pos > 300) {
     //   $('.navbar-logo').attr('src', '../image/navbar-section2-logo.png')
@@ -27,13 +27,13 @@
     } else if (scroll_pos < 680 ){
       $('nav a').css('color', 'white')
       $('.navbar-logo').attr('src', './image/navbar-logo.png')
-      $('.navbar-logo').show()
-      $('nav a').show()
-      $('.navbar-btn').show()
-    } else if (scroll_pos > 1370) {
-      $('.navbar-logo').hide()
-      $('nav a').hide()
-      $('.navbar-btn').hide()
+      $('.navbar-logo').fadeIn(1000)
+      $('nav a').fadeIn(1000)
+      $('.navbar-btn').fadeIn(1000)
+    } else if (scroll_pos > 1200) {
+      $('.navbar-logo').fadeOut()
+      $('nav a').fadeOut()
+      $('.navbar-btn').fadeOut()
     }
   })
 
@@ -44,7 +44,8 @@
     $('#signInButton').css('background-color', '#696969').css('color', '#222222').css('border-color', '#696969')
 
     $('#signInForm').css('display', 'none')
-    $('#signUpForm').show('fast')
+    // $('#signUpForm').show('fast')
+    $('#signUpForm').fadeIn(1000)
   })
 
   $('#signInButton').click(function () {
@@ -52,7 +53,7 @@
     $('#signUpButton').css('background-color', '#696969').css('color', '#222222').css('border-color', '#696969')
     // $('.login-btn').css('margin-bottom', '100px')
 
-    $('#signInForm').show('fast')
+    $('#signInForm').fadeIn(1000)
     $('#signUpForm').css('display', 'none')
   })
 
